@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    color: aliceblue;
+}
+
+body{
+    margin: 0 10rem;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        h1{
+            font-size: 2rem;
+        }
+        #display{
+            background-color: white;
+            padding: 0.5rem;
+            border-radius: 35px;
+            display: flex;
+            justify-content: space-around;
+            input{
+                border: none;
+                color: black;
+                padding: 10px;
+            } 
+            button{
+                color: black;
+            }
+        }
+        #generate{
+            color: black;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+        }
+    }
+}
